@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 
 # Load the trained model
-model = load_model('./model_15_88.h5')  
+model = load_model('./model_15_88.h5', compile=False)  
 
 
 
